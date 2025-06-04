@@ -1,0 +1,18 @@
+/* .about__movie--description--gender {
+   margin-top: 0.625rem;
+} */
+
+
+.about__movie--description--gender h3 {
+    font-size: 1.5rem;
+    line-height: 27px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.about__movie--description--gender p {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    font-weight: 400;
+    margin: 0;
+}

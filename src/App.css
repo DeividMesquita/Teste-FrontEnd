@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    color: #3F2305;
+}
+
+body {
+    background-color: #F2EAD3 !important;
+}
+
+.about {
+    margin-top: 6.25rem;
+}
+
+.about__movie--cover img {
+    width: 400px;
+    height: 600px;
+    border-radius: 0.625rem;
+    object-fit: cover;
+}
+
+.about__movie--description {
+    margin-left: 1.25rem;
+}
+
+.about__movie--description--title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.about__movie--description--title h1 {
+    font-size: 3rem;
+    line-height: 3.4375rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.about__movie--description--title span {
+    font-size: 3rem;
+    line-height: 3.4375rem;
+    font-weight: 400;
+    margin: 0;
+    color: #A4907C;
+}
+
+.carousel {
+    margin-top: 6.25rem;
+    background-color: #DFD7BF;
+}
+
+.reviews__container {
+    gap: 1.25rem;
+    margin-top: 1rem !important;
+}
+
+.reviews__container--item {
+    padding: 1.875rem;
+    background-color: #DFD7BF;
+    border-radius: 0.625rem;
+}
+
+.reviews__container--item p {
+    font-size: 1.5rem;
+    line-height: 1.6875rem;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    line-clamp: 9;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}

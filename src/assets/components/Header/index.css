@@ -1,0 +1,29 @@
+.header {
+    background-color: #3F2305;
+    height: 6.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__menu-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.navbar__menu-item a {
+    text-decoration: none;
+    color:#F2EAD3;
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.6875rem;
+    font-weight: 700;
+}
+
+.navbar__menu-item a:hover {
+    color: #E6B800;
+    transition: 0.3s ease-in-out;
+}
