@@ -65,8 +65,7 @@ const slides = [
 ];
 
 return (
-    <div className="container-xxl carousel mt-5">
-        
+    <div className="container-xxl carousel mt-5 mb-5">
         <Swiper
             spaceBetween={20}
             slidesPerView={6}
@@ -74,6 +73,11 @@ return (
             modules={[]}
             navigation={false}
             pagination={false}
+            breakpoints={{
+                320: { slidesPerView: 2 },
+                480: { slidesPerView: 4 },
+                1200: { slidesPerView: 6 }
+            }}
         >
             {slides.map((slide, idx) => (
                 <SwiperSlide key={idx}>

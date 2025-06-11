@@ -1,20 +1,17 @@
 .carousel {
-    cursor:grab;
+    cursor: grab;
 }
 
 .carousel__item {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    align-items: center;
 }
 
-.carousel__item:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
-
+.carousel__img {
+    width: 100%;
 }
 
 .carousel__item h3 {

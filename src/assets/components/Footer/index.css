@@ -41,3 +41,26 @@
     transition: 0.3s ease-in-out;
     color: #E6B800;
 }
+
+@media (max-width: 768px) {
+    .footer__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__list--links {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__list--links a {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+}

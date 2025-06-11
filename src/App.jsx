@@ -27,42 +27,42 @@ function App() {
                 <Description
                   h3="Gênero"
                   p="Comédia, Aventura, Fantasia"
-                  className={"col-12 mt-4"}
+                  className={"col-12 "}
                 />
                 <Description
                   h3="Sinopse"
                   p='No mundo mágico das Barbies, "Barbieland", uma das bonecas começa a perceber que não se encaixa como as outras. Depois de ser expulsa, ela parte para uma aventura no "mundo real", onde descobre que a beleza está no interior de cada um.'
-                  className={"col-12 mt-4"}
+                  className={"col-12"}
                 />
                 <Description
                   h3="Dirigido por:"
                   p="Greta Gerwig"
-                  className={"col-6 mt-4"}
+                  className={"col-6"}
                 />
                 <Description
                   h3="Escrito por:"
                   p="Greta Gerwig, Noah Baumbach"
-                  className={"col-6 mt-4"}
+                  className={"col-6"}
                 />
                 <Description
                   h3="Situação:"
                   p="Lançado"
-                  className={"col-6 mt-4"}
+                  className={"col-6"}
                 />
                 <Description
                   h3="Idioma original:"
                   p="Inglês"
-                  className={"col-6 mt-4"}
+                  className={"col-6"}
                 />
                 <Description
                   h3="Orçamento:"
                   p="$145,000,000.00"
-                  className={"col-6 mt-4"}
+                  className={"col-6"}
                 />
                 <Description
                   h3="Bilheteira:"
                   p="$1,280,313,193.00"
-                  className={"col-6 mt-4"}
+                  className={"col-6"}
                 />
               </div>
             </div>

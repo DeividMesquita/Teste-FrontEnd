@@ -1,6 +1,6 @@
-/* .about__movie--description--gender {
-   margin-top: 0.625rem;
-} */
+.about__movie--description--gender {
+   margin-top: 1.875rem !important;
+}
 
 
 .about__movie--description--gender h3 {
