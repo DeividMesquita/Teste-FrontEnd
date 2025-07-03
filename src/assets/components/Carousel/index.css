@@ -1,29 +1,45 @@
+/* Container principal do carousel */
 .carousel {
-    cursor: grab;
+  width: 100%;
+  overflow: hidden;
+  cursor: grab;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
+/* Slide individual */
 .carousel__item {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+/* Imagem do slide */
 .carousel__img {
-    width: 100%;
+  width: 100%;
+}
+
+.carousel__img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
 }
 
 .carousel__item h3 {
-    font-size: 1.5rem;
-    line-height: 1.6875rem;
-    font-weight: 700;
-    margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.6875rem;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
 }
 
 .carousel__item p {
-    font-size: 1.5rem;
-    line-height: 1.6875rem;
-    font-weight: 400;
-    margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.6875rem;
+  font-weight: 400;
+  margin: 0;
 }

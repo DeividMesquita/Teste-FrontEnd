@@ -7,62 +7,62 @@ import "swiper/css/pagination";
 import "./index.css";
 
 function Carousel() {
-const slides = [
+  const slides = [
     {
-        img: "/img/1.png",
-        alt: "Margot Robbie",
-        name: "Margot Robbie",
-        role: "Barbie"
+      img: "/img/1.png",
+      alt: "Margot Robbie",
+      name: "Margot Robbie",
+      role: "Barbie",
     },
     {
-        img: "/img/2.png",
-        alt: "Ryan Gosling",
-        name: "Ryan Gosling",
-        role: "Ken"
+      img: "/img/2.png",
+      alt: "Ryan Gosling",
+      name: "Ryan Gosling",
+      role: "Ken",
     },
     {
-        img: "/img/3.png",
-        alt: "America Ferrera",
-        name: "America Ferrera",
-        role: "Gloria"
+      img: "/img/3.png",
+      alt: "America Ferrera",
+      name: "America Ferrera",
+      role: "Gloria",
     },
     {
-        img: "/img/4.png",
-        alt: "Kate McKinnon",
-        name: "Kate McKinnon",
-        role: "Barbie estranha"
+      img: "/img/4.png",
+      alt: "Kate McKinnon",
+      name: "Kate McKinnon",
+      role: "Barbie",
     },
     {
-        img: "/img/5.png",
-        alt: "Ariana Greenblatt",
-        name: "Ariana Greenblatt",
-        role: "Sasha"
+      img: "/img/5.png",
+      alt: "Ariana Greenblatt",
+      name: "Ariana Greenblatt",
+      role: "Sasha",
     },
     {
-        img: "/img/6.png",
-        alt: "Michael Cera",
-        name: "Michael Cera",
-        role: "Allan"
+      img: "/img/6.png",
+      alt: "Michael Cera",
+      name: "Michael Cera",
+      role: "Allan",
     },
     {
-        img: "/img/7.png",
-        alt: "Will Ferrell",
-        name: "Will Ferrell",
-        role: "Mattel CEO"
+      img: "/img/7.png",
+      alt: "Will Ferrell",
+      name: "Will Ferrell",
+      role: "Mattel CEO",
     },
     {
-        img: "/img/8.png",
-        alt: "Issa Rae",
-        name: "Issa Rae",
-        role: "Barbie presidente"
+      img: "/img/8.png",
+      alt: "Issa Rae",
+      name: "Issa Rae",
+      role: "Barbie",
     },
     {
-        img: "/img/9.png",
-        alt: "Alexandra Shipp",
-        name: "Alexandra Shipp",
-        role: "Barbie escritora"
-    }
-];
+      img: "/img/9.png",
+      alt: "Alexandra Shipp",
+      name: "Alexandra Shipp",
+      role: "Barbie",
+    },
+  ];
 
 return (
     <div className="container-xxl carousel mt-5 mb-5">
@@ -94,7 +94,7 @@ return (
             ))}
         </Swiper>
     </div>
-);
+  );
 }
 
 export default Carousel;

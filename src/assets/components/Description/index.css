@@ -16,3 +16,10 @@
     font-weight: 400;
     margin: 0;
 }
+
+@media (max-width: 480px) {
+    .about__movie--description {
+        margin: 0;
+    }
+
+}

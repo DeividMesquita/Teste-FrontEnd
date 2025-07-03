@@ -3,7 +3,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 0.9375rem;
-    margin-top: 1.875rem;
+    margin-top: 30px;
     width: 100%;
 }
 
@@ -31,4 +31,10 @@
     color: #3F2305;
     transition: 0.3s ease-in-out;
     transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+    .title-section {
+        margin-top: 4.375rem;
+    }
 }

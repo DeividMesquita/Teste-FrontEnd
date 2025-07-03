@@ -19,50 +19,52 @@ function App() {
             </div>
             <div className="about__movie--description">
               <div className="row">
-                <div className="about__movie--description--title col-12">
-                  <h1>
-                    Barbie <span style={{ opacity: 0.5 }}>(2023)</span>
-                  </h1>
-                </div>
-                <Description
-                  h3="Gênero"
-                  p="Comédia, Aventura, Fantasia"
-                  className={"col-12 "}
-                />
-                <Description
-                  h3="Sinopse"
-                  p='No mundo mágico das Barbies, "Barbieland", uma das bonecas começa a perceber que não se encaixa como as outras. Depois de ser expulsa, ela parte para uma aventura no "mundo real", onde descobre que a beleza está no interior de cada um.'
-                  className={"col-12"}
-                />
+                <article className="mb-md-3 mb-0">
+                  <div className="about__movie--description--title col-12">
+                    <h1>
+                      Barbie <span style={{ opacity: 0.5 }}>(2023)</span>
+                    </h1>
+                  </div>
+                  <Description
+                    h3="Gênero"
+                    p="Comédia, Aventura, Fantasia"
+                    className={"col-12"}
+                  />
+                  <Description
+                    h3="Sinopse"
+                    p='No mundo mágico das Barbies, "Barbieland", uma das bonecas começa a perceber que não se encaixa como as outras. Depois de ser expulsa, ela parte para uma aventura no "mundo real", onde descobre que a beleza está no interior de cada um.'
+                    className={"col-12"}
+                  />
+                </article>
                 <Description
                   h3="Dirigido por:"
                   p="Greta Gerwig"
-                  className={"col-6"}
+                  className={"col-md-6 col-12"}
                 />
                 <Description
                   h3="Escrito por:"
                   p="Greta Gerwig, Noah Baumbach"
-                  className={"col-6"}
+                  className={"col-md-6 col-12"}
                 />
                 <Description
                   h3="Situação:"
                   p="Lançado"
-                  className={"col-6"}
+                  className={"col-md-6 col-12"}
                 />
                 <Description
                   h3="Idioma original:"
                   p="Inglês"
-                  className={"col-6"}
+                  className={"col-md-6 col-12"}
                 />
                 <Description
                   h3="Orçamento:"
                   p="$145,000,000.00"
-                  className={"col-6"}
+                  className={"col-md-6 col-12 mb-4"}
                 />
                 <Description
                   h3="Bilheteira:"
                   p="$1,280,313,193.00"
-                  className={"col-6"}
+                  className={"col-md-6 col-12 mb-4"}
                 />
               </div>
             </div>
@@ -78,9 +80,9 @@ function App() {
           <TitleSection title="Resenhas" />
           <div className="container-xxl">
             <div className="row">
-              <div className="reviews__container col-12 d-flex flex-column flex-md-row justify-content-between">
-                <div className="reviews__container--item col-6">
-                  <p className="col-12">
+              <div className="reviews__container d-flex flex-column flex-md-row justify-content-between">
+                <div className="reviews__container--item col-12 col-md-6">
+                  <p className="">
                     Um filme super divertido, muito engraçado e reflexivo acerca
                     da vida e da nossa sociedade. Em sua grande maioria,
                     apresenta críticas pontuais, bem escritas e muito
@@ -94,10 +96,14 @@ function App() {
                     reflexivo ao mesmo tempo. É um filme que vale a pena ser
                     assistido, e que certamente vai agradar a todos os públicos.
                   </p>
-                  <Author name="Hementon Renner" date="21 de julho de 2023" rate="9"/>
+                  <Author
+                    name="Hementon Renner"
+                    date="21 de julho de 2023"
+                    rate="9"
+                  />
                 </div>
-                <div className="reviews__container--item col-6">
-                  <p className="col-12">
+                <div className="reviews__container--item col-12 col-md-6">
+                  <p className="">
                     Título: Uma Celebração Encantadora e Empoderadora - "Barbie"
                     (2023) <br></br>
                     <br></br>"Barbie" é uma adorável surpresa cinematográfica
@@ -126,7 +132,11 @@ function App() {
                     filme é uma verdadeira obra-prima que merece ser apreciada
                     por todos.
                   </p>
-                  <Author name="Achilles" date="26 de julho de 2023" rate="10"/>
+                  <Author
+                    name="Achilles"
+                    date="26 de julho de 2023"
+                    rate="10"
+                  />
                 </div>
               </div>
             </div>
@@ -134,7 +144,6 @@ function App() {
         </section>
 
         <Footer />
-
       </main>
     </>
   );
