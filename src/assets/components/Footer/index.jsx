@@ -38,6 +38,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
+          </div>
             <div className="footer__list">
               <ul className="footer__list--links">
                 <li>
@@ -51,7 +52,6 @@ function Footer() {
                 </li>
               </ul>
             </div>
-          </div>
         </div>
       </div>
     </footer>

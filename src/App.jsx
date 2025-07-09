@@ -80,7 +80,7 @@ function App() {
           <TitleSection title="Resenhas" />
           <div className="container-xxl">
             <div className="row">
-              <div className="reviews__container d-flex flex-column flex-md-row justify-content-between">
+              <div className="reviews__container d-flex flex-column flex-md-row col-12">
                 <div className="reviews__container--item col-12 col-md-6">
                   <p className="">
                     Um filme super divertido, muito engraçado e reflexivo acerca
