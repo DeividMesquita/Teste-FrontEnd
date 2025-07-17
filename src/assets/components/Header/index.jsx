@@ -1,13 +1,16 @@
 import "./index.css";
+// importando os icones do react-icons
 import { FaBars } from "react-icons/fa6";
 import { FaX } from "react-icons/fa6";
 import { useState } from "react";
 
 function Header() {
+  // Estado para controlar a abertura do offcanvas
+  // useState é um hook do React que permite adicionar estado a componentes funcionais
   const [offcanvasOpen, setOffcanvasOpen] = useState(false);
 
   return (
-    <header className="header">
+    <header className="header fixed-top">
       <div className="container-xxl">
         <nav className="navbar">
           <div className="navbar__logo">
@@ -27,6 +30,8 @@ function Header() {
 
             <div
               className="navbar__menu--mobile"
+              // on click, altera o estado do offcanvas para aberto
+              // setOffcanvasOpen é uma função que altera o estado
               onClick={() => setOffcanvasOpen(true)}
               style={{ cursor: "pointer" }}
             >
@@ -34,6 +39,7 @@ function Header() {
             </div>
           </div>
           <div
+            // classe condicional para adicionar a classe "open" se offcanvasOpen for true
             className={`navbar__menu--offcanvas${offcanvasOpen ? " open" : ""}`}
           >
             <ul className="navbar__menu-list--offcanvas">
@@ -46,6 +52,7 @@ function Header() {
             </ul>
             <div
               className="navbar__menu--offcanvas-close"
+              // ao clicar, altera o estado do offcanvas para fechado
               onClick={() => setOffcanvasOpen(false)}
               style={{ cursor: "pointer" }}
             >

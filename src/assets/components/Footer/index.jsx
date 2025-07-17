@@ -4,7 +4,8 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container-xxl">
-        <div className="footer__content">
+        {/* Utilizando a tag <nav> para marcar a navegação principal do rodapé */}
+        <nav className="footer__content">
           <div className="footer__content--logo">
             <a href="#">
               <img src="/img/logo.png" alt="Logo" />
@@ -52,7 +53,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-        </div>
+        </nav>
       </div>
     </footer>
   );

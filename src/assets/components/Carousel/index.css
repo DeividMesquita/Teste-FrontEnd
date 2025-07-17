@@ -7,6 +7,18 @@
   box-sizing: border-box;
 }
 
+.carousel__shadow {
+  position: absolute;
+  width: 5rem;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: auto;
+  pointer-events: none;
+  z-index: 99;
+  background: linear-gradient(to left, rgba(0,0,0,0.15), transparent);
+}
+
 /* Slide individual */
 .carousel__item {
   max-width: 100%;

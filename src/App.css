@@ -10,6 +10,7 @@
 
 body {
     background-color: #F2EAD3 !important;
+    padding-top: 5.625rem;
 }
 
 .about {
@@ -106,8 +107,16 @@ body {
         height: auto;
     }
 
+    .about__movie--description--title {
+        margin-top: 1.875rem !important;
+    }
+
     .carousel {
         margin-top: 4.375rem;
+    }
+
+    .reviews__container {
+        margin-top: 1.1875rem !important;
     }
 
     .reviews__container--item {

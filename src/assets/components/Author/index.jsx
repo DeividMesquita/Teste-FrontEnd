@@ -1,5 +1,6 @@
 import "./index.css";
 
+// componente para exibir informações do autor da resenha
 function Author({name,date,rate}) {
   return (
     <div className="author">

@@ -1,5 +1,6 @@
 import "./index.css";
 
+// Esse componente é responsável por renderizar a descrição do filme para evitar repetição de código
 function Description(props) {
   return (
     <div className={`about__movie--description--gender ${props.className}`}>

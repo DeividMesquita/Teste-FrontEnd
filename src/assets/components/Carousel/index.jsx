@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import "./index.css";
 
 function Carousel() {
+  //array com os dados dos slides
   const slides = [
     {
       img: "/img/1.png",
@@ -64,35 +65,40 @@ function Carousel() {
     },
   ];
 
-return (
+  return (
     <div className="container-xxl carousel mt-5 mb-5">
-        <Swiper
-            spaceBetween={20}
-            slidesPerView={6}
-            loop={false}
-            modules={[]}
-            navigation={false}
-            pagination={false}
-            breakpoints={{
-                320: { slidesPerView: 2 },
-                480: { slidesPerView: 4 },
-                1200: { slidesPerView: 6 }
-            }}
-        >
-            {slides.map((slide, idx) => (
-                <SwiperSlide key={idx}>
-                    <div className="carousel__item">
-                        <figure className="carousel__img">
-                            <img src={slide.img} alt={slide.alt} />
-                            <figcaption className="d-flex flex-column align-items-center mt-4">
-                                <h3>{slide.name}</h3>
-                                <p>{slide.role}</p>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </SwiperSlide>
-            ))}
-        </Swiper>
+      <div className="carousel__shadow">
+        <img src="/img/shadow.png" alt="Shadow" />
+      </div>
+      <Swiper
+        // Configurações do Swiper
+        spaceBetween={20}
+        slidesPerView={6}
+        loop={false}
+        modules={[]}
+        navigation={false}
+        pagination={false}
+        breakpoints={{
+          320: { slidesPerView: 2 },
+          480: { slidesPerView: 4 },
+          1200: { slidesPerView: 6 },
+        }}
+      >
+        {/* Mapeia os slides e cria um SwiperSlide para cada um */}
+        {slides.map((slide, idx) => (
+          <SwiperSlide key={idx}>
+            <div className="carousel__item">
+              <figure className="carousel__img">
+                <img src={slide.img} alt={slide.alt} />
+                <figcaption className="d-flex flex-column align-items-center mt-4">
+                  <h3>{slide.name}</h3>
+                  <p>{slide.role}</p>
+                </figcaption>
+              </figure>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
   );
 }

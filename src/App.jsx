@@ -8,10 +8,13 @@ import Footer from "./assets/components/Footer";
 
 function App() {
   return (
-    <>
+    <>  
+      {/* Utilizando o componente Header */}
       <Header />
 
       <main>
+
+        {/* section About */}
         <section className="container-xxl">
           <div className="about d-flex flex-column flex-md-row align-items-center">
             <div className="about__movie--cover ">
@@ -25,6 +28,7 @@ function App() {
                       Barbie <span style={{ opacity: 0.5 }}>(2023)</span>
                     </h1>
                   </div>
+                  {/* Utilizando o componente Description com props para exibir informações do filme */}
                   <Description
                     h3="Gênero"
                     p="Comédia, Aventura, Fantasia"
@@ -37,6 +41,7 @@ function App() {
                   />
                 </article>
                 <Description
+              
                   h3="Dirigido por:"
                   p="Greta Gerwig"
                   className={"col-md-6 col-12"}
@@ -71,11 +76,13 @@ function App() {
           </div>
         </section>
 
+        {/* section Carousel */}
         <section className="carousel d-flex flex-column justify-content-center align-items-center">
           <TitleSection title="Elenco" />
           <Carousel />
         </section>
 
+        {/* section Reviews */}
         <section className="reviews">
           <TitleSection title="Resenhas" />
           <div className="container-xxl">
@@ -96,6 +103,7 @@ function App() {
                     reflexivo ao mesmo tempo. É um filme que vale a pena ser
                     assistido, e que certamente vai agradar a todos os públicos.
                   </p>
+                  {/* Exibindo o componente Author para mostrar informações do autor da resenha */}
                   <Author
                     name="Hementon Renner"
                     date="21 de julho de 2023"
