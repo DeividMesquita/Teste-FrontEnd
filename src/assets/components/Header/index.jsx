@@ -1,7 +1,6 @@
 import "./index.css";
 // importando os icones do react-icons
-import { FaBars } from "react-icons/fa6";
-import { FaX } from "react-icons/fa6";
+import { FaBars, FaX } from "react-icons/fa6";
 import { useState } from "react";
 
 function Header() {
@@ -14,9 +13,14 @@ function Header() {
       <div className="container-xxl">
         <nav className="navbar">
           <div className="navbar__logo">
-            <a href="#">
+            <button
+              type="button"
+              className="navbar__logo-btn"
+              aria-label="Home"
+              style={{ background: "none", border: "none", padding: 0, cursor: "pointer" }}
+            >
               <img src="/img/logo.png" alt="Logo" />
-            </a>
+            </button>
           </div>
           <div className="navbar__menu">
             <ul className="navbar__menu-list">

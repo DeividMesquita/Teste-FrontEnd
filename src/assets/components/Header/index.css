@@ -6,6 +6,10 @@
     box-shadow: 0 0.625rem 0.5rem #00000033;
 }
 
+.fixed-top {
+    top : -1px !important;
+}
+
 .navbar__menu-list {
     display: flex;
     list-style: none;

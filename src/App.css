@@ -63,6 +63,7 @@ body {
     padding: 1.875rem;
     background-color: #DFD7BF;
     border-radius: 0.625rem;
+    width: 38.125rem;
 }
 
 .reviews__container--item p {
@@ -93,6 +94,7 @@ body {
 
     .reviews__container--item {
         padding: 1.25rem;
+        width: 44.625rem;
     }
 
 }
@@ -120,6 +122,11 @@ body {
     }
 
     .reviews__container--item {
-        padding: 1.25rem;
+        width: 21.5625rem;
+    }
+
+    .reviews__container--item p {
+        font-size: 1.125rem;
+        line-height: 1.3125rem;
     }
 }

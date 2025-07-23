@@ -8,12 +8,11 @@ import Footer from "./assets/components/Footer";
 
 function App() {
   return (
-    <>  
+    <>
       {/* Utilizando o componente Header */}
       <Header />
 
       <main>
-
         {/* section About */}
         <section className="container-xxl">
           <div className="about d-flex flex-column flex-md-row align-items-center">
@@ -22,7 +21,7 @@ function App() {
             </div>
             <div className="about__movie--description">
               <div className="row">
-                <article className="mb-md-3 mb-0">
+                <div className="mb-md-3 mb-0">
                   <div className="about__movie--description--title col-12">
                     <h1>
                       Barbie <span style={{ opacity: 0.5 }}>(2023)</span>
@@ -30,18 +29,17 @@ function App() {
                   </div>
                   {/* Utilizando o componente Description com props para exibir informações do filme */}
                   <Description
-                    h3="Gênero"
+                    h3="Gênero:"
                     p="Comédia, Aventura, Fantasia"
                     className={"col-12"}
                   />
                   <Description
-                    h3="Sinopse"
+                    h3="Sinopse:"
                     p='No mundo mágico das Barbies, "Barbieland", uma das bonecas começa a perceber que não se encaixa como as outras. Depois de ser expulsa, ela parte para uma aventura no "mundo real", onde descobre que a beleza está no interior de cada um.'
                     className={"col-12"}
                   />
-                </article>
+                </div>
                 <Description
-              
                   h3="Dirigido por:"
                   p="Greta Gerwig"
                   className={"col-md-6 col-12"}
@@ -87,7 +85,7 @@ function App() {
           <TitleSection title="Resenhas" />
           <div className="container-xxl">
             <div className="row">
-              <div className="reviews__container d-flex flex-column flex-md-row col-12">
+              <div className="reviews__container d-flex flex-column flex-md-row">
                 <div className="reviews__container--item col-12 col-md-6">
                   <p className="">
                     Um filme super divertido, muito engraçado e reflexivo acerca

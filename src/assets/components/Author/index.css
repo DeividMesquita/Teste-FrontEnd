@@ -26,4 +26,9 @@
     .author {
         margin-bottom: 1.25rem;
     }
+
+    .author p {
+        font-size: 1.125rem;
+        line-height: 1.3125rem;
+    }
 }
